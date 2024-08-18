@@ -1,3 +1,9 @@
+import Terminal from "../components/Terminal";
+
 export default function Qna() {
-  return <div></div>;
+  return (
+    <div>
+      <Terminal />
+    </div>
+  );
 }

@@ -8,6 +8,7 @@ import Coordinators from "./pages/Coordinators";
 import About from "./pages/About";
 import Clubs from "./pages/Clubs";
 import Contact from "./pages/Contact";
+import Qna from "./pages/Qna";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Clubs />
       <Sponsors />
       <Coordinators />
+      <Qna />
       <Contact />
     </div>
   );
