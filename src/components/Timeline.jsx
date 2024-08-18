@@ -1,8 +1,9 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { boxes } from "../../constants";
 import cn from "classnames";
+import TimeCard from "./TimeCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -20,14 +21,14 @@ export default function Timeline() {
           opacity: 0,
         },
         {
-          x: 0,
+          x: index % 2 === 0 ? "0%" : "0%", // Alternates the direction
           opacity: 1,
           scrollTrigger: {
             trigger: box,
             start: "top 60%", // Adjust the trigger point as needed
             end: "bottom 60%",
             scrub: true,
-            markers: true, // Set to true to visualize the trigger points
+            markers: false, // Set to true to visualize the trigger points
           },
         }
       );
@@ -39,21 +40,21 @@ export default function Timeline() {
       gsap.fromTo(
         box,
         {
-          [index % 2 !== 0 ? "borderRight" : "borderLeft"]: "0px solid purple",
-          borderBottom: "0px solid purple",
-          boxShadow: "0px 0px 0px 0px purple",
+          [index % 2 !== 0 ? "borderRight" : "borderLeft"]: "0px solid violet",
+          borderBottom: "0px solid violet",
+          boxShadow: "0px 0px 0px 0px gray",
         },
         {
-          [index % 2 !== 0 ? "borderRight" : "borderLeft"]: "20px solid purple",
-          borderBottom: "20px solid purple",
+          [index % 2 !== 0 ? "borderRight" : "borderLeft"]: "5px solid violet",
+          borderBottom: "5px solid violet",
           duration: 2,
-          //   boxShadow: "0px 0px 10px 10px violet",
+          // boxShadow: "0px 0px 10px 10px gray",
           scrollTrigger: {
             trigger: box,
             start: "top 60%", // Adjust the trigger point as needed
             end: "bottom 60%",
             scrub: true,
-            markers: true, // Set to true to visualize the trigger points
+            markers: false, // Set to true to visualize the trigger points
           },
         }
       );
@@ -61,9 +62,12 @@ export default function Timeline() {
   }, []);
 
   return (
-    <div className="h-full bg-black text-white">
+    <div
+      id="timeline"
+      className="h-full w-full flex flex-col justify-center items-center text-white"
+    >
+      <h1 className="font-anton text-6xl uppercase font-bold">Timeline</h1>
       <div
-        id="timeline"
         className="flex flex-col justify-center items-center relative"
         ref={timelineRef}
       >
@@ -73,17 +77,24 @@ export default function Timeline() {
             id={`box-${index}`}
             ref={(el) => (boxRefs1.current[index] = el)}
             className={cn(
-              "box w-96 h-96 bg-black text-white relative rounded-full rounded-t-none"
+              "box w-full h-full bg-black text-white relative py-8 px-6 rounded-none rounded-t-none"
             )}
           >
             <div
-              className="absolute h-full w-full flex flex-col text-3xl bg-gray-400 rounded-full bg-opacity-15 justify-center items-center"
+              className="w-full h-full"
               ref={(el) => (boxRefs.current[index] = el)}
             >
-              <div className="date">{box.date}</div>
-              <div className="event">{box.event}</div>
-              <div className="description">{box.description}</div>
+              <TimeCard
+                box={box}
+                padding={index % 2 == 0 ? "pl-52" : "pr-52"}
+              />
             </div>
+            <div
+              className={cn(
+                "bg-rose-300 h-5 w-5 absolute rounded-full top-1/2",
+                index % 2 == 0 ? "-left-3" : "-right-3"
+              )}
+            ></div>
           </div>
         ))}
       </div>

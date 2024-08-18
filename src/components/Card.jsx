@@ -1,7 +1,7 @@
-export default function Card() {
+export default function Card({ faculty }) {
   return (
-    <div>
-      <div className="product-card w-[300px] rounded-md shadow-xl overflow-hidden z-[100] relative cursor-pointer snap-start shrink-0 py-8 px-6 bg-white flex flex-col items-center justify-center gap-3 transition-all duration-300 group">
+    <div className=" w-72 h-96 overflow-y-hidden">
+      <div className=" shrink-0 rounded-md shadow-xl overflow-hidden z-[80] relative py-8 px-6 bg-gray-300 flex flex-col items-center justify-center gap-3 transition-all duration-300 group">
         <div className="absolute -left-[40%] top-0 group-hover:rotate-12 transition-all duration-300 group-hover:scale-150">
           <div className="flex gap-1">
             <svg
@@ -10,7 +10,7 @@ export default function Card() {
               strokeWidth="1"
               fill="none"
               viewBox="0 0 24 24"
-              className="fill-gray-300 rotate-[24deg]"
+              className="fill-gray-500 rotate-[24deg]"
               height="200"
               width="200"
               xmlns="http://www.w3.org/2000/svg"
@@ -19,16 +19,18 @@ export default function Card() {
             </svg>
           </div>
         </div>
-        <div className="absolute rounded-full bg-gray-500 z-20 left-1/2 top-[44%] h-[110%] w-[110%] -translate-x-1/2 group-hover:top-[58%] transition-all duration-300"></div>
-        <div className="para uppercase text-center leading-none z-40">
-          <p className="text-black font-semibold text-xs font-serif">Best</p>
-          <p className="font-bold text-xl tracking-wider text-gray-500">
-            Fashion
+        <div className="absolute rounded-full bg-gray-800 z-20 left-1/2 top-[44%] h-[110%] w-[110%] -translate-x-1/2 group-hover:top-[58%] transition-all duration-300"></div>
+        <div className="para uppercase text-center leading-none w-full z-40">
+          <p className="text-black font-semibold text-base font-serif">
+            {faculty.name}
+          </p>
+          <p className="font-bold text-sm tracking-wider text-black">
+            {faculty.post}
           </p>
         </div>
-        <div className="img w-[180px] aspect-square bg-gray-100 z-40 rounded-md">
+        <div className="w-52 h-60 aspect-square bg-gray-100 z-40 rounded-md">
           <img
-            src="https://images.unsplash.com/photo-1612833939111-6c9d3c8b4a5d"
+            src={faculty.link}
             alt="product"
             className="object-cover w-full h-full rounded-md"
           />

@@ -138,9 +138,6 @@ export default function Title() {
           <img src={N} alt="" className="w-full h-full object-contain" />
         </div>
       </div>
-      <div className="font-comic-sans  text-white absolute text-6xl top-[380px] uppercase font-bold">
-        <div>Breath life into ideas</div>
-      </div>
       <h1 className="text-center text-gray-100 text-8xl uppercase tracking-widest font-anton font-bold">
         1-2 October, 2024
       </h1>

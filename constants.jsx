@@ -4,15 +4,15 @@ export const routes = [
     label: "Home",
   },
   {
-    href: "/about",
+    href: "#about",
     label: "About",
   },
   {
-    href: "/preevents",
-    label: "pre-events",
+    href: "#qna",
+    label: "Q&A",
   },
   {
-    href: "/timeline",
+    href: "#timeline",
     label: "timeline",
   },
   {
@@ -20,7 +20,7 @@ export const routes = [
     label: "Accomodations",
   },
   {
-    href: "/team",
+    href: "#team",
     label: "team",
   },
   // {
@@ -28,50 +28,146 @@ export const routes = [
   //   label: "sponsors",
   // },
   {
-    href: "/contact",
+    href: "#contact",
     label: "Contact",
   },
 ];
 
 export const boxes = [
   {
-    date: "2021",
-    event: "Event 1",
-    description: "Description 1",
+    date: "21st August,2024",
+    event: "Registrations Start",
+    description: "Regitrations for the 24Hr Challenge Starts",
   },
   {
-    date: "2022",
-    event: "Event 2",
-    description: "Description 2",
+    date: "21st September,2024",
+    event: "Registrations Ends",
+    description: "Regitrations for the 24Hr Challenge Ends",
   },
   {
-    date: "2023",
-    event: "Event 3",
-    description: "Description 3",
+    date: "21st September,2024",
+    event: "Pre-Events Start",
+    description:
+      "The Pre-Events starts consiting of skill building workshops, Fun Events and Competions",
   },
   {
-    date: "2024",
-    event: "Event 4",
-    description: "Description 4",
+    date: "1st October,2024",
+    event: "24Hr Challenge Starts",
+    description:
+      "The 24Hr Challenge Starts, Teams to form 4-6 and make a complete business portfolio and Pitch there Starts ups",
   },
   {
-    date: "2025",
-    event: "Event 5",
-    description: "Description 5",
+    date: "2nd October,2024",
+    event: "Exbition & Panel Discussion",
+    description:
+      "Exbitions contains the Patents and Projects of the organizing clubs at display and a Panel Discussion joined by our Chief Guest which will be revealed soon",
   },
 ];
 
 export const partners = [
-  { name: "Chem", description: "Chemistry Club" },
-  { name: "Physics", description: "Physics Club" },
-  { name: "Math", description: "Math Club" },
-  { name: "Bio", description: "Biology Club" },
+  {
+    name: "VIT Chennai",
+    description:
+      "Established in 1984, Vellore Institute of Technology stands as one of the most prominent engineering institutions in India.",
+    link: "/1.png",
+  },
+  {
+    name: "Office of Students Welfare",
+    description:
+      "The Office of Student Welfare is a supportive pillar of the student community",
+    link: "/swcblack.png",
+  },
+  {
+    name: "V-Nest",
+    description:
+      "V-Nest has aided in startup incubation for VIT Chennai since 2020",
+    link: "/2.png",
+  },
+  {
+    name: "Institution's Innovation Council",
+    description:
+      "An initiative by the GOI to foster innovation and entrepreneurship",
+    link: "/4.png",
+  },
 ];
 
 export const clubs = [
-  { name: "CS", description: "Computer Science Club" },
-  { name: "CS", description: "Computer Science Club" },
-  { name: "CS", description: "Computer Science Club" },
-  { name: "CS", description: "Computer Science Club" },
-  { name: "CS", description: "Computer Science Club" },
+  {
+    name: "Robotics Club",
+    description:
+      "The Club organizes and partakes in hands-on activities, lectures from experts along with exciting competitions, striving to impart knowledge and exposure to the electrifying field of Robotics in VIT Chennai since 2011.",
+    link: "https://temp.guruprasaathm.com/assets/img/orgclubs/1.jpg",
+  },
+  {
+    name: "AI Club",
+    description:
+      "One of the youngest clubs in VIT Chennai, with the spread of AI adoption as key objective, The Club is dedicated to exploring the exciting and fresh domain of artificial intelligence and similar technologies in VIT Chennai since 2024",
+    link: "/5.png",
+  },
+  {
+    name: "ProdInno",
+    description:
+      "ProdInno isn't just a typical club; it's a new thriving community where aspiring innovators come together to brainstorm, collaborate, and bring groundbreaking ideas to fruition. ProdInno looks to support innovative minds and ideas.",
+    link: "https://temp.guruprasaathm.com/assets/img/orgclubs/3.jpg",
+  },
+  {
+    name: "Photography Club",
+    description:
+      "A Club dedicated to capturing the beauty of the world through the lens and enhancing our skills in photography. Engaged in creative workshops, collaborative photo walks, and exciting photography projects.",
+    link: "https://temp.guruprasaathm.com/assets/img/orgclubs/4.jpg",
+  },
+  {
+    name: "Fine Arts Club",
+    description:
+      "A Club dedicated to fostering creativity and artistic expression. We conduct regular events to celebrate various forms fine arts, The Club offers a platform for students to explore and enhance your talents.",
+    link: "https://temp.guruprasaathm.com/assets/img/orgclubs/5.jpg",
+  },
+];
+
+export const faculties = [
+  {
+    name: "Dr. G. Velmathi",
+    post: "ProdInno",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/velmathi.jpg",
+  },
+  {
+    name: "Dr. David Raj Michael",
+    post: "ProdInno",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/david.jpg",
+  },
+  {
+    name: "Dr. Felix A",
+    post: "ProdInno",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/felix.jpg  ",
+  },
+  {
+    name: "Dr. Dhavakumar P",
+    post: "AI Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/dhavakumar1.png",
+  },
+  {
+    name: "Dr. Siva Bala Krishnan M.",
+    post: "AI Club, VIT Chennai",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/sivabalakrishnan2.jpg",
+  },
+  {
+    name: "Dr. Arockia Selvakumar",
+    post: "Robotics Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/arockiaselvakumar.jpg",
+  },
+  {
+    name: "Dr. Santosh G.",
+    post: "Photography Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/santoshg.jpg",
+  },
+  {
+    name: "Dr. Niraj Kumar",
+    post: "Photography Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/nirajkumar.jpg",
+  },
+  {
+    name: "Dr. Sri Ramalakshmi P",
+    post: "Fine Arts Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/sriramalakshmi.jpg",
+  },
 ];

@@ -2,7 +2,7 @@
 
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
-import Sponsors from "./pages/Sponsors";
+// import Sponsors from "./pages/Sponsors";
 import Timeline from "./components/Timeline";
 import Coordinators from "./pages/Coordinators";
 import About from "./pages/About";
@@ -18,7 +18,7 @@ export default function App() {
       <About />
       <Timeline />
       <Clubs />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Coordinators />
       <Qna />
       <Contact />

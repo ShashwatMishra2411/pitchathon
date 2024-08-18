@@ -2,7 +2,7 @@ import Terminal from "../components/Terminal";
 
 export default function Qna() {
   return (
-    <div>
+    <div id="qna">
       <Terminal />
     </div>
   );
