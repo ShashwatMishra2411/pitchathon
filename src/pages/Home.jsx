@@ -40,33 +40,33 @@ export default function Home() {
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 3,
           },
           repulse: {
-            distance: 200,
+            distance: 100,
             duration: 0.4,
           },
         },
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: "#eb98a4",
         },
         links: {
-          color: "#ffffff",
+          color: "#fff3b0",
           distance: 150,
           enable: true,
           opacity: 0.5,
           width: 1,
         },
         move: {
-          direction: "none",
+          direction: "centre",
           enable: true,
           outModes: {
             default: "bounce",
           },
           random: false,
-          speed: 3,
+          speed: 1.5,
           straight: false,
         },
         number: {
@@ -82,7 +82,7 @@ export default function Home() {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 2, max: 6 },
         },
       },
       detectRetina: true,

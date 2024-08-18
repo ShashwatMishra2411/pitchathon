@@ -12,9 +12,11 @@
   font-weight: 700;
 }
 
-.des {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+.des{
+  background-image: linear-gradient(to right, #f39fa81B 0%, #7350a85B 100%);
 }
-.km {
-  background-image: linear-gradient(to right, #d7d2ccbb 0%, #304352bb 100%);
+.km{
+  background-image: linear-gradient(to right, #d7d2ccBB 0%, #304352BB 100%);
 }
+.kes{
+  background-image: linear-gradient(to right, #3c3132 0%, #9987b5 100%);}
