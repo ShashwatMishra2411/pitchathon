@@ -11,3 +11,11 @@
   font-family: "Comic Neue", cursive;
   font-weight: 700;
 }
+
+.des{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.km{
+  background-image: linear-gradient(to right, #d7d2ccBB 0%, #304352BB 100%);
+  
+}
