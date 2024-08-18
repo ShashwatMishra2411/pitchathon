@@ -61,11 +61,14 @@ export const boxes = [
   },
 ];
 
-export const clubs = [
+export const partners = [
   { name: "Chem", description: "Chemistry Club" },
   { name: "Physics", description: "Physics Club" },
   { name: "Math", description: "Math Club" },
   { name: "Bio", description: "Biology Club" },
+];
+
+export const clubs = [
   { name: "CS", description: "Computer Science Club" },
   { name: "CS", description: "Computer Science Club" },
   { name: "CS", description: "Computer Science Club" },
