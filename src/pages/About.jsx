@@ -2,7 +2,7 @@ import Button24 from "../components/Button24";
 
 export default function About() {
   return (
-    <div className="bg-black w-full flex flex-col justify-center items-center px-20 h-full">
+    <div className="bg-white bg-opacity-10 w-[90vw] mx-40 flex flex-col justify-center items-center h-full">
       <h1 className=" font-anton text-white text-6xl tracking-widest uppercase">
         About
       </h1>

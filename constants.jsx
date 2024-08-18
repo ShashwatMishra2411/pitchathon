@@ -23,10 +23,10 @@ export const routes = [
     href: "/team",
     label: "team",
   },
-  {
-    href: "/sponsors",
-    label: "sponsors",
-  },
+  // {
+  //   href: "/sponsors",
+  //   label: "sponsors",
+  // },
   {
     href: "/contact",
     label: "Contact",
