@@ -8,8 +8,8 @@ import H from "/h.svg";
 import A from "/a.svg";
 import O from "/o.svg";
 import N from "/n.svg";
-import wind from "/wind.svg";
-import Buttonpre from "./Buttonpre";
+// import wind from "/wind.svg";
+// import Buttonpre from "./Buttonpre";
 
 export default function Title() {
   const circleRef = useRef(null);
@@ -44,7 +44,7 @@ export default function Title() {
       },
       {
         scaleX: 1,
-        duration: 0.5,
+        duration: 1,
         ease: "power1.inOut",
       }
     );
@@ -99,9 +99,9 @@ export default function Title() {
   }, []);
 
   return (
-    <div className="h-[100vh] gap-10 flex flex-col justify-center items-center px-20 py-60 w-full overflow-hidden z-40">
+    <div className="h-[100vh] relative gap-40 flex flex-col justify-center items-center px-20 pt-20 py-60 w-full overflow-hidden z-40">
       <div
-        className="grid grid-cols-10 grid-rows-1 w-full h-full"
+        className="grid grid-cols-10 grid-rows-1 w-full h-96"
         style={{ perspective: "1200px" }}
         ref={titleRef}
       >
@@ -138,15 +138,12 @@ export default function Title() {
           <img src={N} alt="" className="w-full h-full object-contain" />
         </div>
       </div>
-      <h1 className="text-center text-gray-100 text-6xl uppercase tracking-widest font-anton font-bold">
+      <div className="font-comic-sans  text-white absolute text-6xl top-[380px] uppercase font-bold">
+        <div>Breath life into ideas</div>
+      </div>
+      <h1 className="text-center text-gray-100 text-8xl uppercase tracking-widest font-anton font-bold">
         1-2 October, 2024
       </h1>
-      {/* <div className="text-black flex uppercase text-4xl font-bold bg-white items-center rounded-3xl p-2 pl-0 justify-between bg-no-repeat">
-        <img className="object-contain h-16 w-16" src={wind} alt="" />
-        <div className="font-comic-neue font-bold">
-          <div>Breath life into ideas</div>
-        </div>
-      </div> */}
       {/* <div className="flex relative w-full justify-center items-center z-50 gap-10">
         <Buttonpre text={"Pre-EventS"} />
         <Buttonpre text={"24Hr Challenge"} />
