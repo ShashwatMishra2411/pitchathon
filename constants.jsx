@@ -60,3 +60,15 @@ export const boxes = [
     description: "Description 5",
   },
 ];
+
+export const clubs = [
+  { name: "Chem", description: "Chemistry Club" },
+  { name: "Physics", description: "Physics Club" },
+  { name: "Math", description: "Math Club" },
+  { name: "Bio", description: "Biology Club" },
+  { name: "CS", description: "Computer Science Club" },
+  { name: "CS", description: "Computer Science Club" },
+  { name: "CS", description: "Computer Science Club" },
+  { name: "CS", description: "Computer Science Club" },
+  { name: "CS", description: "Computer Science Club" },
+];
