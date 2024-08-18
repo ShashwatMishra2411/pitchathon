@@ -5,12 +5,12 @@ export default function Clubs() {
   return (
     <div className="text-white h-full w-full flex flex-col justify-center items-center gap-24">
       <h1 className="text-6xl font-anton tracking-widest uppercase ">
-        Organising Partners
+        Organisers
       </h1>
-      <div className="flex flex-col justify-center items-center gap-4">
-        <div>
+      <div className="flex flex-col justify-center items-center gap-20">
+        <div className="flex flex-col gap-4">
           <h1 className="text-4xl font-anton text-center tracking-widest uppercase">
-            Partners
+            Organising Partners
           </h1>
           <div className="h-full w-full flex gap-4 flex-wrap justify-center items-center">
             {partners.map((club, index) => {
@@ -24,9 +24,9 @@ export default function Clubs() {
             })}
           </div>
         </div>
-        <div>
+        <div className="flex flex-col gap-4">
           <h1 className="text-4xl font-anton text-center tracking-widest uppercase">
-            Clubs
+            Organising Clubs
           </h1>
           <div className="h-full w-full flex gap-4 flex-wrap justify-center items-center">
             {clubs.map((club, index) => {
