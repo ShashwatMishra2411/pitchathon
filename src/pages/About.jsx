@@ -45,7 +45,7 @@ export default function About() {
           </div>
           <Button24 text={"24Hr Challenge"} />
         </div>
-        <div className="flex flex-col gap-2 justify-center items-center w-full ">
+        {/* <div className="flex flex-col gap-2 justify-center items-center w-full ">
           <h1 className="uppercase text-xl xl:text-4xl text-center text-nowrap font-bold">
             Panel Discussion
           </h1>
@@ -64,7 +64,7 @@ export default function About() {
             See you all in the hackathon!🔍💻
           </div>
           <Button24 text={"Pre-Event"} />
-        </div>
+        </div> */}
       </div>
     </div>
   );
