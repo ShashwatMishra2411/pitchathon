@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         "comic-neue": ["Comic Neue", "cursive"],
         anton: ["Anton", "sans-serif"],
+        "roboto-mono": ["Roboto Mono", "monospace"],
+      },
+      backgroundColor: {
+        about: "rgba(39, 39, 42, .43)",
       },
     },
   },
