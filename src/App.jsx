@@ -11,8 +11,8 @@ import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <div className="w-full overflow-hidden flex flex-col justify-center items-center">
-      <Navbar/>
+    <div className="w-full overflow-hidden flex gap-10 flex-col justify-center items-center">
+      <Navbar />
       <Home />
       <About />
       <Timeline />
