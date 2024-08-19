@@ -9,8 +9,8 @@ export default function About() {
       <h1 className=" font-anton text-white text-6xl tracking-widest uppercase">
         About
       </h1>
-      <div className="flex gap-10 text-white justify-between font-roboto-mono w-full">
-        <div className="flex flex-col gap-4 justify-center items-center w-full ">
+      <div className="flex flex-wrap gap-10 text-white justify-center font-roboto-mono w-full">
+        <div className="flex flex-col gap-4 justify-center items-center w-full basis-1/3">
           <h1 className="uppercase text-xl xl:text-4xl font-bold">Pre-Event</h1>
           <div className="h-full w-full bg-about rounded-2xl p-4">
             Getting into a loop of ideas, but finding out where to showcase
@@ -30,7 +30,7 @@ export default function About() {
             Pre Event
           </button>
         </div>
-        <div className="flex flex-col gap-2 justify-center items-center w-full ">
+        <div className="flex flex-col gap-2 justify-center items-center w-full basis-1/3">
           <h1 className="uppercase text-xl xl:text-4xl text-nowrap font-bold">
             24Hr Challenge
           </h1>
