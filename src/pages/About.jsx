@@ -10,7 +10,7 @@ export default function About() {
       <div className="flex flex-wrap gap-10 text-white justify-center font-roboto-mono w-full">
         <div className="flex flex-col gap-4 justify-center items-center w-full basis-1/3">
           <h1 className="uppercase text-xl xl:text-4xl font-bold">Pre-Event</h1>
-          <div className="h-full w-full bg-about rounded-2xl p-4">
+          <div className="h-full w-full text-center bg-about rounded-2xl p-4">
             Leading up to our main event, we’ve curated an exciting series of
             pre-events organized by our collaborating clubs. These activities
             are designed to engage participants and spark creativity across
@@ -29,7 +29,7 @@ export default function About() {
           <h1 className="uppercase text-xl xl:text-4xl text-nowrap font-bold">
             24Hr Challenge
           </h1>
-          <div className="h-full w-full bg-about rounded-2xl p-4">
+          <div className="h-full w-full text-center bg-about rounded-2xl p-4">
             Our event is a 24-hour innovation challenge designed to spark
             creativity and entrepreneurship among students. Teams of 4-6 will
             develop a unique business or product concept, crafting everything
