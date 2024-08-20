@@ -20,7 +20,9 @@ export default function TimeCard({ padding, box }) {
         <line y2="21" x2="16" y1="21" x1="8"></line>
         <line y2="21" x2="12" y1="17" x1="12"></line>
       </svg>
-
+      <p className="font-bold text-2xl text-white group-hover:text-black/100">
+        {box.date}
+      </p>
       <p className="font-bold text-2xl text-white group-hover:text-black/100">
         {box.event}
       </p>

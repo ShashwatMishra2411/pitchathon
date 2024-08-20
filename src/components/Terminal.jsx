@@ -73,7 +73,7 @@ export default function Terminal() {
               />
             </form>
           </div>
-          <div ref={commandsEndRef} />
+          {/* <div ref={commandsEndRef} /> */}
         </div>
       </aside>
     </div>

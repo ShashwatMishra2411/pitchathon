@@ -45,7 +45,7 @@ export const boxes = [
     description: "Regitrations for the 24Hr Challenge Ends",
   },
   {
-    date: "21st September,2024",
+    date: "22nd September,2024",
     event: "Pre-Events Start",
     description:
       "The Pre-Events starts consiting of skill building workshops, Fun Events and Competions",
@@ -126,9 +126,38 @@ export const clubs = [
 
 export const faculties = [
   {
+    name: "Dr. Arockia Selvakumar",
+    post: "Robotics Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/arockiaselvakumar.jpg",
+  },
+  {
     name: "Dr. G. Velmathi",
     post: "ProdInno",
     link: "https://temp.guruprasaathm.com/assets/img/faculty/velmathi.jpg",
+  },
+  
+  {
+    name: "Dr. Dhavakumar P",
+    post: "AI Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/dhavakumar1.png",
+  },
+ 
+  
+  {
+    name: "Dr. Santosh G.",
+    post: "Photography Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/santoshg.jpg",
+  },
+  
+  {
+    name: "Dr. Sri Ramalakshmi P",
+    post: "Fine Arts Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/sriramalakshmi.jpg",
+  },
+  {
+    name: "Dr. Siva Bala Krishnan M.",
+    post: "AI Club, VIT Chennai",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/sivabalakrishnan2.jpg",
   },
   {
     name: "Dr. David Raj Michael",
@@ -141,33 +170,13 @@ export const faculties = [
     link: "https://temp.guruprasaathm.com/assets/img/faculty/felix.jpg  ",
   },
   {
-    name: "Dr. Dhavakumar P",
-    post: "AI Club",
-    link: "https://temp.guruprasaathm.com/assets/img/faculty/dhavakumar1.png",
-  },
-  {
-    name: "Dr. Siva Bala Krishnan M.",
-    post: "AI Club, VIT Chennai",
-    link: "https://temp.guruprasaathm.com/assets/img/faculty/sivabalakrishnan2.jpg",
-  },
-  {
-    name: "Dr. Arockia Selvakumar",
-    post: "Robotics Club",
-    link: "https://temp.guruprasaathm.com/assets/img/faculty/arockiaselvakumar.jpg",
-  },
-  {
-    name: "Dr. Santosh G.",
-    post: "Photography Club",
-    link: "https://temp.guruprasaathm.com/assets/img/faculty/santoshg.jpg",
-  },
-  {
     name: "Dr. Niraj Kumar",
     post: "Photography Club",
     link: "https://temp.guruprasaathm.com/assets/img/faculty/nirajkumar.jpg",
   },
   {
-    name: "Dr. Sri Ramalakshmi P",
-    post: "Fine Arts Club",
-    link: "https://temp.guruprasaathm.com/assets/img/faculty/sriramalakshmi.jpg",
+    name: "Dr. Jayanthi R",
+    post: "V-NEST",
+    link: "https://chennai.vit.ac.in/wp-content/uploads/2020/09/50926-Prof.-Jayanthi-R-50926-255x319.jpg",
   },
 ];

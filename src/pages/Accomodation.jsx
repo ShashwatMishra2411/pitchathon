@@ -10,11 +10,13 @@ export default function Accomodation() {
           className="absolute left-0 bottom-0"
           alt=""
         />
-        <div className="register flex flex-col p-10 absolute gap-40 bottom-0 left-0">
+        <div className="register flex flex-col p-10 absolute gap-40 bottom-20 left-0">
           <h1 className="text-[#cded09] text-6xl font-bold tracking-widest uppercase font-anton">
             Accomodation
           </h1>
-          <button className="bg-[#cded09] px-2 py-4 text-4xl mx-20">Register</button>
+          <button className="bg-[#cded09] px-2 py-4 text-4xl mx-20">
+            Register
+          </button>
         </div>
       </div>
     </div>
