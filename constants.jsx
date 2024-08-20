@@ -8,29 +8,29 @@ export const routes = [
     label: "About",
   },
   {
-    href: "#qna",
-    label: "Q&A",
-  },
-  {
     href: "#timeline",
     label: "timeline",
   },
-  {
-    href: "/accomodations",
-    label: "Accomodations",
-  },
+  // {
+  //   href: "/accomodations",
+  //   label: "Accomodations",
+  // },
   {
     href: "#team",
     label: "team",
+  },
+  {
+    href: "#qna",
+    label: "Q&A",
   },
   // {
   //   href: "/sponsors",
   //   label: "sponsors",
   // },
-  {
-    href: "#contact",
-    label: "Contact",
-  },
+  // {
+  //   href: "#contact",
+  //   label: "Contact",
+  // },
 ];
 
 export const boxes = [
