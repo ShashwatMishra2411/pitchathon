@@ -1,6 +1,6 @@
 export default function Card({ faculty }) {
   return (
-    <div className=" w-72 h-96 overflow-y-hidden">
+    <div className=" w-64 h-96 overflow-y-hidden">
       <div className=" shrink-0 rounded-md shadow-xl overflow-hidden z-[80] relative py-8 px-6 bg-gray-300 flex flex-col items-center justify-center gap-3 transition-all duration-300 group">
         <div className="absolute -left-[40%] top-0 group-hover:rotate-12 transition-all duration-300 group-hover:scale-150">
           <div className="flex gap-1">
@@ -21,10 +21,10 @@ export default function Card({ faculty }) {
         </div>
         <div className="absolute rounded-full bg-gray-800 z-20 left-1/2 top-[44%] h-[110%] w-[110%] -translate-x-1/2 group-hover:top-[58%] transition-all duration-300"></div>
         <div className="para uppercase text-center leading-none w-full z-40">
-          <p className="text-black font-semibold text-base font-serif">
+          <p className="text-black font-semibold text-sm font-serif">
             {faculty.name}
           </p>
-          <p className="font-bold text-sm tracking-wider text-black">
+          <p className="font-bold text-xs tracking-wider text-black">
             {faculty.post}
           </p>
         </div>

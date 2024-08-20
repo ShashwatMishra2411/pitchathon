@@ -135,20 +135,19 @@ export const faculties = [
     post: "ProdInno",
     link: "https://temp.guruprasaathm.com/assets/img/faculty/velmathi.jpg",
   },
-  
+
   {
     name: "Dr. Dhavakumar P",
     post: "AI Club",
     link: "https://temp.guruprasaathm.com/assets/img/faculty/dhavakumar1.png",
   },
- 
-  
+
   {
     name: "Dr. Santosh G.",
     post: "Photography Club",
     link: "https://temp.guruprasaathm.com/assets/img/faculty/santoshg.jpg",
   },
-  
+
   {
     name: "Dr. Sri Ramalakshmi P",
     post: "Fine Arts Club",
@@ -178,5 +177,10 @@ export const faculties = [
     name: "Dr. Jayanthi R",
     post: "V-NEST",
     link: "https://chennai.vit.ac.in/wp-content/uploads/2020/09/50926-Prof.-Jayanthi-R-50926-255x319.jpg",
+  },
+  {
+    name: "Dr. Rishikeshan C A",
+    post: "V-NEST",
+    link: "https://chennai.vit.ac.in/wp-content/uploads/2020/08/Dr.Rishikeshan-C-A.jpg",
   },
 ];
