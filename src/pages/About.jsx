@@ -3,7 +3,7 @@ import Button24 from "../components/Button24";
 export default function About() {
   return (
     <div className="des w-[90vw] flex flex-col justify-center items-center h-full rounded-xl px-9 py-10 ">
-      <h1 className=" font-anton text-white text-6xl tracking-widest uppercase">
+      <h1 className=" font-solo1 text-white text-6xl tracking-widest uppercase">
         About
       </h1>
       <div className="flex gap-10 text-white justify-between font-roboto-mono w-full">

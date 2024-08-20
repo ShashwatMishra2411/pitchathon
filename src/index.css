@@ -11,6 +11,10 @@
   font-family: "Comic Neue", cursive;
   font-weight: 700;
 }
+@font-face {
+  font-family: 'solo1'; /* Name the font */
+  src: url('/solo.ttf') format('truetype'); /* Path to the .ttf file and format */
+}
 
 .des{
   background-image: linear-gradient(to right, #f39fa81B 0%, #7350a85B 100%);
