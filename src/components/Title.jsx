@@ -99,9 +99,9 @@ export default function Title() {
   }, []);
 
   return (
-    <div className="h-[100vh] relative gap-40 flex flex-col justify-center items-center px-20 pt-20 py-60 w-full overflow-hidden z-40">
+    <div className="h-[100vh] relative gap-10 md:gap-40 flex flex-col justify-center items-center px-6 lg:px-20 pt-20 py-60 w-full overflow-hidden z-40">
       <div
-        className="grid grid-cols-10 grid-rows-1 w-full h-96"
+        className="grid grid-cols-5 grid-rows-2 lg:grid-cols-10 lg:grid-rows-1 w-full h-96"
         style={{ perspective: "1200px" }}
         ref={titleRef}
       >
@@ -138,7 +138,7 @@ export default function Title() {
           <img src={N} alt="" className="w-full h-full object-contain" />
         </div>
       </div>
-      <h1 className="text-center text-gray-100 text-8xl uppercase tracking-widest font-anton font-bold">
+      <h1 className="text-center text-gray-100 text-3xl sm:text-6xl xl:text-8xl uppercase tracking-widest font-anton font-bold">
         1-2 October, 2024
       </h1>
       {/* <div className="flex relative w-full justify-center items-center z-50 gap-10">
