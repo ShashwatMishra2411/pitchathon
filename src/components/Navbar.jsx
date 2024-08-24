@@ -44,7 +44,7 @@ export default function Navbar() {
           return (
             <div key={route.label}>
               <a
-                className="text-white px-4 py-2 flex flex-col relative after:bg-opacity-30 text-xl font-bold after:w-full after:h-full after:scale-x-0 after:hover:scale-x-100 after:bg-white after:absolute after:bottom-0 after:left-0 after:transform after:hover:origin-left after:origin-right after:transition-transform after:duration-200 after:ease-in-out "
+                className="text-white px-1 sm:px-4 py-2 flex flex-col relative after:bg-opacity-30 text-xs md:text-xl font-bold after:w-full after:h-full after:scale-x-0 after:hover:scale-x-100 after:bg-white after:absolute after:bottom-0 after:left-0 after:transform after:hover:origin-left after:origin-right after:transition-transform after:duration-200 after:ease-in-out "
                 href={route.href}
               >
                 {route.label}
