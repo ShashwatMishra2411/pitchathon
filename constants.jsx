@@ -176,7 +176,7 @@ export const faculties = [
   {
     name: "Dr. Jayanthi R",
     post: "V-NEST",
-    link: "https://chennai.vit.ac.in/wp-content/uploads/2020/09/50926-Prof.-Jayanthi-R-50926-255x319.jpg",
+    link: "/JayanthiR.jpg",
   },
   {
     name: "Dr. Rishikeshan C A",
