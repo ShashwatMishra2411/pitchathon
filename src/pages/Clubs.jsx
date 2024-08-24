@@ -7,12 +7,12 @@ export default function Clubs() {
       <h1 className="text-6xl font-anton tracking-widest uppercase ">
         Organisers
       </h1>
-      <div className="flex flex-col justify-center items-center gap-20">
+      <div className="flex flex-col justify-center items-center gap-5 md:gap-20">
         <div className="flex flex-col gap-4">
           <h1 className="text-4xl font-anton text-center tracking-widest uppercase">
             Organising Partners
           </h1>
-          <div className="h-full w-full flex-wrap flex gap-4 justify-center items-center">
+          <div className="h-full w-full flex-wrap flex gap-2 justify-center items-center">
             {partners.map((club, index) => {
               return (
                 <ClubCards
