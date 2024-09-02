@@ -9,6 +9,7 @@ import Clubs from "./pages/Clubs";
 import Contact from "./pages/Contact";
 import Qna from "./pages/Qna";
 import Navbar from "./components/Navbar";
+import Merch from "./pages/Merch";
 export default function HomePage() {
   return (
     <div className="w-full overflow-hidden flex gap-10 flex-col justify-center items-center">
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Home />
       <About />
       <Timeline />
+      <Merch />
       <Clubs />
       {/* <Sponsors /> */}
       <Coordinators />

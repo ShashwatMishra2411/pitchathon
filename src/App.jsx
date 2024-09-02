@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Accomodation from "./pages/Accomodation";
 // import Navbar from "./components/Navbar.jsx";
 import HomePage from "./HomePage.jsx";
+import Preevent from "./pages/Preevent.jsx";
 export default function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function App() {
           path="/accomodations"
           element={<Accomodation></Accomodation>}
         ></Route>
+        <Route path="/preevent" element={<Preevent></Preevent>}></Route>
       </Routes>
     </div>
   );

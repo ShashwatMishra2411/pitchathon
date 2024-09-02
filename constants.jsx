@@ -8,6 +8,10 @@ export const routes = [
     label: "About",
   },
   {
+    href: "/#merch",
+    label: "merchandise",
+  },
+  {
     href: "#timeline",
     label: "timeline",
   },
@@ -23,10 +27,6 @@ export const routes = [
     href: "#qna",
     label: "Q&A",
   },
-  // {
-  //   href: "/sponsors",
-  //   label: "sponsors",
-  // },
   // {
   //   href: "#contact",
   //   label: "Contact",
@@ -182,5 +182,66 @@ export const faculties = [
     name: "Dr. Rishikeshan C A",
     post: "V-NEST",
     link: "https://chennai.vit.ac.in/wp-content/uploads/2020/08/Dr.Rishikeshan-C-A.jpg",
+  },
+];
+
+export const merch = [
+  {
+    src: "black",
+  },
+  {
+    src: "white",
+  },
+
+  {
+    src: "pink",
+  },
+];
+
+export const posters = [
+  {
+    src: "/POSTERS/1.png",
+  },
+  {
+    src: "/POSTERS/2.png",
+  },
+  {
+    src: "/POSTERS/3.png",
+  },
+  {
+    src: "/POSTERS/4.png",
+  },
+  {
+    src: "/POSTERS/5.png",
+  },
+  {
+    src: "/POSTERS/6.png",
+  },
+  {
+    src: "/POSTERS/7.png",
+  },
+  {
+    src: "/POSTERS/8.png",
+  },
+  {
+    src: "/POSTERS/9.png",
+  },
+  {
+    src: "/POSTERS/10.png",
+  },
+  {
+    src: "/POSTERS/11.png",
+  },
+  {
+    src: "/POSTERS/12.png",
+  },
+  {
+    src: "/POSTERS/13.png",
+  },
+  {
+    src: "/POSTERS/14.png",
+  },
+  {
+    src: "/POSTERS/15.png",
   },
 ];
