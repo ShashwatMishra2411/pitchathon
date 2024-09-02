@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="des w-[90vw] flex flex-col justify-center items-center h-full rounded-xl px-9 py-10 "
+      className="des w-[90vw] flex flex-col justify-center items-center h-full rounded-xl px-4 lg:px-9 py-10 "
     >
       <h1 className="font-anton text-white text-6xl tracking-widest uppercase">
         About
@@ -10,13 +10,13 @@ export default function About() {
       <div className="flex flex-wrap gap-10 text-white justify-center font-roboto-mono w-full">
         <div className="flex flex-col gap-4 justify-center items-center w-full basis-1/3">
           <h1 className="uppercase text-xl xl:text-4xl font-bold">Pre-Event</h1>
-          <div className="h-full w-full text-center bg-about rounded-2xl p-4">
+          <div className="h-full w-full text-center bg-about rounded-2xl p-1 md:p-4">
             Leading up to our main event, we’ve curated an exciting series of
             pre-events organized by our collaborating clubs. These activities
             are designed to engage participants and spark creativity across
-            various domains. Whether you're passionate about arts, eager to
+            various domains. Whether you&apos;re passionate about arts, eager to
             tackle a hackathon, or ready to dive into some competitive gaming,
-            there's something for everyone. These pre-events set the stage for
+            there&rsquo;s something for everyone. These pre-events set the stage for
             the main challenge, offering a chance to connect, collaborate, and
             warm up your innovative spirit. Get involved and be part of the
             journey leading to the grand finale!
@@ -29,7 +29,7 @@ export default function About() {
           <h1 className="uppercase text-xl xl:text-4xl text-nowrap font-bold">
             24Hr Challenge
           </h1>
-          <div className="h-full w-full text-center bg-about rounded-2xl p-4">
+          <div className="h-full w-full text-center bg-about rounded-2xl p-1 md:p-4">
             Our event is a 24-hour innovation challenge designed to spark
             creativity and entrepreneurship among students. Teams of 4-6 will
             develop a unique business or product concept, crafting everything
