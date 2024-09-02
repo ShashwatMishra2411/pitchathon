@@ -1,0 +1,51 @@
+name: Deploy React App to EC2
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.7.0
+      with:
+        ssh-private-key: ${{ secrets.EC2_SSH_KEY }}  # Store your EC2 private key in GitHub Secrets
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'  # Use the version of Node.js your app requires
+
+    - name: Install PM2
+      run: npm install -g pm2
+
+    - name: Deploy to EC2
+      run: |
+        ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.EC2_HOST }} << 'EOF'
+          cd ~/pitchathon  # Navigate to your project directory
+          
+          # Pull the latest changes from the repository
+          git pull origin main
+          
+          # Install dependencies
+          npm install
+          
+          # Build the React app
+          npm run build
+          
+          # Start or reload the app with PM2
+          pm2 delete react-app || true  # Delete previous instance if it exists
+          pm2 serve dist/ 3000 --name "react-app" --spa
+          
+          # Save PM2 process list and configure PM2 to start on boot
+          pm2 save
+          pm2 startup
+        EOF
+
