@@ -9,7 +9,7 @@ export const routes = [
   },
   {
     href: "/#merch",
-    label: "merchandise",
+    label: "merch",
   },
   {
     href: "#timeline",
@@ -185,6 +185,67 @@ export const faculties = [
   },
 ];
 
+export const students = [
+  {
+    name: "Dr. Arockia Selvakumar",
+    post: "Robotics Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/arockiaselvakumar.jpg",
+  },
+  {
+    name: "Dr. G. Velmathi",
+    post: "ProdInno",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/velmathi.jpg",
+  },
+
+  {
+    name: "Dr. Dhavakumar P",
+    post: "AI Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/dhavakumar1.png",
+  },
+
+  {
+    name: "Dr. Santosh G.",
+    post: "Photography Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/santoshg.jpg",
+  },
+
+  {
+    name: "Dr. Sri Ramalakshmi P",
+    post: "Fine Arts Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/sriramalakshmi.jpg",
+  },
+  {
+    name: "Dr. Siva Bala Krishnan M.",
+    post: "AI Club, VIT Chennai",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/sivabalakrishnan2.jpg",
+  },
+  {
+    name: "Dr. David Raj Michael",
+    post: "ProdInno",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/david.jpg",
+  },
+  {
+    name: "Dr. Felix A",
+    post: "ProdInno",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/felix.jpg  ",
+  },
+  {
+    name: "Dr. Niraj Kumar",
+    post: "Photography Club",
+    link: "https://temp.guruprasaathm.com/assets/img/faculty/nirajkumar.jpg",
+  },
+  {
+    name: "Dr. Jayanthi R",
+    post: "V-NEST",
+    link: "/JayanthiR.jpg",
+  },
+  {
+    name: "Dr. Rishikeshan C A",
+    post: "V-NEST",
+    link: "https://chennai.vit.ac.in/wp-content/uploads/2020/08/Dr.Rishikeshan-C-A.jpg",
+  },
+];
+
 export const merch = [
   {
     src: "black",
@@ -200,48 +261,80 @@ export const merch = [
 
 export const posters = [
   {
+    title: "ROBO SOCCER",
     src: "/POSTERS/1.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2271",
+    
   },
   {
+    title: "Car Building Workshop",
     src: "/POSTERS/2.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2276",
   },
   {
+    title: "drone workshop",
     src: "/POSTERS/3.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2272",
   },
   {
+    title: "Carnival",
     src: "/POSTERS/4.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2276",
   },
   {
+    title: "Painting Competition",
     src: "/POSTERS/5.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2277",
   },
   {
+    title: "Jewel It Up",
     src: "/POSTERS/6.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2278",
   },
   {
+    title: "Reel Competition",
     src: "/POSTERS/7.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2279",
   },
   {
+    title: "Product Portfolio",
     src: "/POSTERS/8.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2284",
   },
   {
+    title: "Astro Workshop",
     src: "/POSTERS/9.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2280",
   },
   {
+    title: "How to Patent",
     src: "/POSTERS/10.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2275",
   },
   {
+    title: "Tark Shank",
     src: "/POSTERS/11.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2274",
   },
   {
+    title: "F1",
     src: "/POSTERS/12.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2273",
   },
   {
+    title: "Latex Workshop",
     src: "/POSTERS/13.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2281",
   },
   {
+    title: "Lead the way",
     src: "/POSTERS/14.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2282",
   },
   {
+    title: "Ai Driven",
     src: "/POSTERS/15.png",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2283",
   },
 ];
+

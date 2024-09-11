@@ -96,10 +96,10 @@ export default function Preevent() {
         <h1 className="text-5xl lg:text-8xl font-anton uppercase h-full tracking-widest text-white font-extrabold">
           Pre Events
         </h1>
-        <h1 className="font-source-code-pro text-lg text-nowrap text-white">
+        {/* <h1 className="font-source-code-pro text-lg text-nowrap text-white">
           Registrations start soon.......
-        </h1>
-        <div className="grid justify-content-center grid-cols-1 lg:grid-cols-5 lg:grid-rows-3 des p-10 z-[200] relative rounded-xl gap-10">
+        </h1> */}
+        <div className="grid justify-content-center grid-cols-3 lg:grid-cols-5 lg:grid-rows-3 des p-2 lg:p-10 z-[200] relative rounded-xl gap-2 lg:gap-10">
           {posters.map((item, index) => {
             return <PreeventCard key={index} poster={item} />;
           })}
