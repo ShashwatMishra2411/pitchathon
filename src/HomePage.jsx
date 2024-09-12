@@ -1,7 +1,7 @@
 // import React from "react";
 import Home from "./pages/Home";
 // import Navbar from "./components/Navbar";
-// import Sponsors from "./pages/Sponsors";
+import Sponsors from "./pages/Sponsors";
 import Timeline from "./components/Timeline";
 import Coordinators from "./pages/Coordinators";
 import About from "./pages/About";
@@ -9,7 +9,7 @@ import Clubs from "./pages/Clubs";
 import Contact from "./pages/Contact";
 import Qna from "./pages/Qna";
 import Navbar from "./components/Navbar";
-import Merch from "./pages/Merch";
+// import Merch from "./pages/Merch";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -105,7 +105,7 @@ export default function HomePage() {
       <Home />
       <About />
       <Timeline />
-      <Merch />
+      {/* <Merch /> */}
       <Clubs />
       {/* <Sponsors /> */}
       <Coordinators />
