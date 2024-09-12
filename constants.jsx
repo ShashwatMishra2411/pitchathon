@@ -269,7 +269,7 @@ export const posters = [
   {
     title: "Car Building Workshop",
     src: "/POSTERS/2.png",
-    link:"https://vitchennaievents.com/conf1/index.php?eventid=2276",
+    link:"https://vitchennaievents.com/conf1/index.php?eventid=2290",
   },
   {
     title: "drone workshop",
