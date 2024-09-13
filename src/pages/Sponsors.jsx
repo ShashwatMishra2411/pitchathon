@@ -1,5 +1,3 @@
-import eth from "/SPONSORS/eth.svg";
-
 export default function Sponsors() {
   return (
     <div className="h-full flex des w-[90vw] rounded-xl justify-center items-center relative">
