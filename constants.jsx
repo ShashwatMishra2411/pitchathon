@@ -7,10 +7,10 @@ export const routes = [
     href: "#about",
     label: "About",
   },
-  {
-    href: "/#merch",
-    label: "merch",
-  },
+  // {
+  //   href: "/#merch",
+  //   label: "merch",
+  // },
   {
     href: "#timeline",
     label: "timeline",

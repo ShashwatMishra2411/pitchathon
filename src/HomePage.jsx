@@ -107,7 +107,7 @@ export default function HomePage() {
       <Timeline />
       {/* <Merch /> */}
       <Clubs />
-      {/* <Sponsors /> */}
+      <Sponsors />
       <Coordinators />
       <Qna />
       <Contact />
