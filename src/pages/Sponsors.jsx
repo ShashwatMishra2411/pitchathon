@@ -59,8 +59,8 @@ export default function Sponsors() {
             <div className="bg-white rounded-lg transition-transform transform hover:scale-105 hover:shadow-lg">
               <img
                 className="w-96 h-60 object-contain rounded-t-lg"
-                src="SPONSORS/pit.png"
-                alt="Quick Pik Sponsor"
+                src="SPONSORS/kwik.png"
+                alt="Kwik Pik Sponsor"
               />
             </div>
           </div>
