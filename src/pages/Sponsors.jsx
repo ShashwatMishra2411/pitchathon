@@ -1,7 +1,7 @@
 export default function Sponsors() {
   return (
     <div className="h-full flex des w-[90vw] rounded-xl justify-center items-center relative">
-      <div className="flex justify-center flex-col items-center p-10 gap-10 relative z-[100]">
+      <div className="flex justify-center flex-col items-center p-10 gap-10 relative z-[10]">
         <h1 className="text-5xl lg:text-8xl font-anton uppercase tracking-widest text-white font-extrabold">
           Sponsors
         </h1>
@@ -19,9 +19,9 @@ export default function Sponsors() {
                 alt="Bobble Sponsor"
               />
             </div>
-            <div className="bg-gray-800 rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+            <div className="bg-white rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
               <img
-                className="w-96 h-60 object-cover rounded-t-lg"
+                className="w-96 h-60 object-contain rounded-lg"
                 src="SPONSORS/glok.png"
                 alt="Glok Sponsor"
               />
@@ -79,7 +79,7 @@ export default function Sponsors() {
                 alt="Azure Sponsor"
               />
             </div>
-            <div className="bg-white flex relative justify-center items-center rounded-lg transition-transform transform hover:scale-105 overflow-hidden hover:shadow-lg">
+            <div className="bg-white min-h-60 flex relative justify-center items-center rounded-lg transition-transform transform hover:scale-105 overflow-hidden hover:shadow-lg">
               <img
                 className="w-96 h-60 object-contain absolute left-0 top-5 rounded-t-lg"
                 src="SPONSORS/zsecurity.png"

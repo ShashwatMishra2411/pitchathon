@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function Terminal() {
   const [commands, setCommands] = useState([]);
@@ -7,7 +7,7 @@ export default function Terminal() {
   function handleSubmit(e) {
     e.preventDefault();
     const input = e.target.elements.commandInput;
-    const command = input.value.trim();
+    const command = input.value.trim().toLowerCase();
     let newCommands = [
       ...commands,
       <div className="text-green-400 flex" key={commands.length}>
