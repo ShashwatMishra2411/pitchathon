@@ -23,11 +23,12 @@ export default function Timeline() {
         {
           x: index % 2 === 0 ? "0%" : "0%", // Alternates the direction
           opacity: 1,
+          duration: 1.5,
           scrollTrigger: {
             trigger: box,
             start: "top 60%", // Adjust the trigger point as needed
             end: "bottom 60%",
-            scrub: true,
+            toggleActions: "play none play reverse", // This makes the animation replay on each scroll in and out
             markers: false, // Set to true to visualize the trigger points
           },
         }
@@ -47,13 +48,12 @@ export default function Timeline() {
         {
           [index % 2 !== 0 ? "borderRight" : "borderLeft"]: "5px solid violet",
           borderBottom: "5px solid violet",
-          duration: 2,
-          // boxShadow: "0px 0px 10px 10px gray",
+          duration: 1,
           scrollTrigger: {
             trigger: box,
             start: "top 60%", // Adjust the trigger point as needed
             end: "bottom 60%",
-            scrub: true,
+            toggleActions: "play none play reverse",
             markers: false, // Set to true to visualize the trigger points
           },
         }

@@ -1,7 +1,7 @@
 export default function ClubCards({ name, description, link }) {
   return (
     <div className="relative rounded-xl z-50">
-      <div className="bg-black text-white lg:w-[25vw] p-5 h-96 shadow-md relative overflow-auto overflow-x-hidden no-scrollbar">
+      <div className="bg-black text-white lg:w-[25vw] w-[70vw] p-5 h-96 shadow-md relative overflow-auto overflow-x-hidden no-scrollbar">
         {/* <button className="bg-green-200 text-green-700 rounded-xl px-3 py-1 absolute right-2 text-sm">
           4.5
         </button> */}

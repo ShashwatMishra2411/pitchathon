@@ -271,12 +271,12 @@ export const posters = [
   {
     title: "Car Building Workshop",
     src: "/POSTERS/2.png",
-    link: "https://vitchennaievents.com/conf1/index.php?eventid=2290",
+    link: "https://vitchennaievents.com/conf1/index.php?eventid=2298",
   },
   {
     title: "drone workshop",
     src: "/POSTERS/3.png",
-    link: "https://vitchennaievents.com/conf1/index.php?eventid=2272",
+    link: "https://vitchennaievents.com/conf1/index.php?eventid=2297",
   },
   {
     title: "Carnival",
