@@ -11,12 +11,19 @@ export default function Sponsors() {
           <h2 className="text-3xl lg:text-5xl font-bold text-[#E5E4E2] mb-8">
             Platinum Sponsors
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <div className="bg-gray-800 rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <div className="bg-white rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
               <img
                 className="w-96 h-60 p-3 object-contain bg-white rounded-t-lg"
                 src="SPONSORS/bobble.png"
                 alt="Bobble Sponsor"
+              />
+            </div>
+            <div className="bg-white rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+              <img
+                className="w-96 h-60 p-3 object-contain rounded-lg"
+                src="SPONSORS/pepsi.png"
+                alt="Pepsi Sponsor"
               />
             </div>
             <div className="bg-white rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
