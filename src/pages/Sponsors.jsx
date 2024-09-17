@@ -82,8 +82,8 @@ export default function Sponsors() {
             <div className="bg-white flex justify-center items-center rounded-lg transition-transform transform hover:scale-105 hover:shadow-lg">
               <img
                 className="w-96 h-60 object-contain rounded-t-lg"
-                src="SPONSORS/azure.svg"
-                alt="Azure Sponsor"
+                src="SPONSORS/axure.png"
+                alt="Axure Sponsor"
               />
             </div>
             <div className="bg-white min-h-60 flex relative justify-center items-center rounded-lg transition-transform transform hover:scale-105 overflow-hidden hover:shadow-lg">
